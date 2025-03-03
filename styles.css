@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+header, footer {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  background: #444;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.form-section {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  background: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+.day-section {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+}
+
+.subject-section {
+  border: 1px dashed #aaa;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+}

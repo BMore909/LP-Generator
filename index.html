@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Weekly Lesson Plan Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>AI Weekly Lesson Plan Generator for Teachers</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Features</a> |
+    <a href="#">Resources</a> |
+    <a href="#">Contact</a>
+  </nav>
+  <main class="container">
+    <h2>Create Your Customized Weekly Lesson Plan</h2>
+    <section class="form-section" id="general-details">
+      <h3>General Lesson Details</h3>
+      <div class="form-group">
+        <label for="subjects">Subjects:</label>
+        <select id="subjects" multiple>
+          <option value="Math">Math</option>
+          <option value="Science">Science</option>
+          <option value="History">History</option>
+          <option value="English">English</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="grade-level">Grade Level:</label>
+        <select id="grade-level">
+          <option value="K-12">K-12</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="overall-theme">Overall Theme/Focus:</label>
+        <input type="text" id="overall-theme" placeholder="e.g., Exploring Ecosystems">
+      </div>
+      <div class="form-group">
+        <label for="daily-duration">Daily Duration:</label>
+        <input type="text" id="daily-duration" placeholder="e.g., 45 minutes">
+      </div>
+      <div class="form-group">
+        <label for="number-of-days">Number of Days:</label>
+        <select id="number-of-days">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="day-sections" class="days-tabs">
+      <!-- Dynamic day sections will be generated here -->
+    </section>
+
+    <button id="generate-plan">Generate Weekly Plan</button>
+
+    <section id="generated-plan" class="form-section">
+      <h3>Generated Weekly Lesson Plan</h3>
+      <!-- AI generated content appears here -->
+    </section>
+  </main>
+  <footer>
+    © 2025 - Terms | Privacy | Support | About Us
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
